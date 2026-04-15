@@ -207,20 +207,25 @@
     0%, 100% { opacity: 1; }
     50% { opacity: 0.3; }
   }
-  .hero-photo-wrap {
+  .hero-avatar-wrap {
     display: flex;
     justify-content: center;
     margin-bottom: 32px;
   }
-  .hero-photo {
-    width: 200px;
-    height: 200px;
+  .hero-avatar {
+    width: 96px;
+    height: 96px;
     border-radius: 50%;
-    object-fit: cover;
-    object-position: center top;
-    border: 2px solid var(--accent);
-    box-shadow: 0 0 0 6px rgba(78,204,163,0.10);
-    image-rendering: auto;
+    background: rgba(78,204,163,0.1);
+    border: 1.5px solid var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--serif);
+    font-size: 28px;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+    flex-shrink: 0;
   }
 
   /* SECTION BASE */
@@ -532,8 +537,8 @@
   </div>
 
   <div class="hero-right reveal">
-    <div class="hero-photo-wrap">
-      <img src="vikaspal_photo.jpg" alt="Vikas Pal" class="hero-photo">
+    <div class="hero-avatar-wrap">
+      <div class="hero-avatar">VP</div>
     </div>
     <div class="stats-grid">
       <div class="stat-cell">
