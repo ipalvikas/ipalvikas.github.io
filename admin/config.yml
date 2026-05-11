@@ -1,0 +1,67 @@
+backend:
+  name: github
+  repo: ipalvikas/ipalvikas.github.io
+  branch: main
+
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "_data/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Track", name: "track", widget: "select", options: ["Clinical & Research", "Banking", "Analytics Consulting"] }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Tech Stack (comma separated)", name: "stack", widget: "string" }
+      - { label: "Impact / Outcome", name: "impact", widget: "string" }
+      - { label: "Link (optional)", name: "link", widget: "string", required: false }
+
+  - name: "certifications"
+    label: "Certifications"
+    folder: "_data/certifications"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Issuer", name: "issuer", widget: "string" }
+      - { label: "Date", name: "date", widget: "string" }
+
+  - name: "awards"
+    label: "Awards & Competitions"
+    folder: "_data/awards"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Placement / Type", name: "placement", widget: "string" }
+      - { label: "Organizer", name: "organizer", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+
+  - name: "press"
+    label: "Press Coverage"
+    folder: "_data/press"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Headline", name: "title", widget: "string" }
+      - { label: "Publication", name: "publication", widget: "string" }
+      - { label: "Date", name: "date", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "URL", name: "url", widget: "string" }
+
+  - name: "publications"
+    label: "Publications"
+    folder: "_data/publications"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Journal / Venue", name: "venue", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+      - { label: "Authors", name: "authors", widget: "text" }
+      - { label: "DOI Link", name: "doi", widget: "string", required: false }
+      - { label: "Status", name: "status", widget: "select", options: ["Published", "In Review", "Forthcoming"] }
