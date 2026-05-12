@@ -427,7 +427,10 @@ async function loadRecognition(){
 
   const pressHtml = `
     <div style="margin-bottom:56px;">
-      <div class="track-label"><span></span>Press coverage</div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px;">
+        <div class="track-label" style="margin-bottom:0;"><span></span>Press coverage</div>
+        <a href="https://archive.org/details/@vikas_pal798/web-archive" target="_blank" rel="noopener" style="font-family:var(--mono);font-size:11px;color:var(--muted);text-decoration:none;border:0.5px solid var(--border);padding:4px 12px;border-radius:3px;transition:all 0.15s;white-space:nowrap;" onmouseover="this.style.color='var(--accent)';this.style.borderColor='var(--accent)'" onmouseout="this.style.color='var(--muted)';this.style.borderColor='var(--border)'">View all archived press ↗</a>
+      </div>
       <div class="press-grid">
         ${press.map(p=>`
           <div class="pub-card reveal" style="padding:28px 32px;">
