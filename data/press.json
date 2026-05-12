@@ -5,15 +5,16 @@
     "publication": "University of Arizona · IT News",
     "date": "Aug 2025",
     "summary": "Named feature on Vikas Pal's work using Soteria HPC to process large-scale kidney transplant data, run ML models on CT scans, and extract data from nearly 1 million PDF reports. Quoted directly in the article.",
-    "url": "https://it.arizona.edu/news/organ-donation-data-improved-hpc"
+    "url": "https://it.arizona.edu/news/organ-donation-data-improved-hpc",
+    "archive_url": "https://web.archive.org/web/20260512213411/https://it.arizona.edu/news/organ-donation-data-improved-hpc"
   },
   {
     "id": 2,
     "title": "Secure Analysis Enclave Enables Advanced Tools to Improve Kidney Care",
     "publication": "University of Arizona · Data Science Institute",
-    "date": "2025",
+    "date": "July 2025",
     "summary": "Coverage of the team's use of secure data enclaves to analyze sensitive kidney care datasets and develop advanced clinical ML tools.",
-    // "url": "https://datascience.arizona.edu/news/secure-analysis-enclave-enables-advanced-tools-and-data-sets-improve-kidney-care"
-    "url": "press/Secure_analysis_enclave_enables_advanced_tools_and_data_sets_to_improve_kidney_care_Data_Science_Institute_July_15_2025.pdf"
+    "url": "press/Secure_analysis_enclave_enables_advanced_tools_and_data_sets_to_improve_kidney_care_Data_Science_Institute_July_15_2025.pdf",
+    "archive_url": "https://web.archive.org/web/20251014155201/https://datascience.arizona.edu/news/secure-analysis-enclave-enables-advanced-tools-and-data-sets-improve-kidney-care"
   }
 ]
