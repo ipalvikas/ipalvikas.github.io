@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "track": "Clinical & Research",
+    "title": "Medicare Claims Cost Analysis",
+    "description": "Led comprehensive analysis of kidney transplant Medicare claims using the U.S. Renal Data System (USRDS), spanning 2000–2020 across 100,000+ patients. Identified cost reduction strategies with potential to save the government millions in healthcare spending.",
+    "stack": ["USRDS", "SQL", "Power BI", "HIPAA Cloud"],
+    "impact": "100,000+ patients · 2000–2020 dataset · government cost reduction identified"
+  },
+  {
+    "id": 2,
+    "track": "Clinical & Research",
+    "title": "Billion-Row Transplant Hospitalization Analysis",
+    "description": "Managed and analyzed over 1 billion rows of pre- and post-transplant hospitalization and physician supply claims in a HIPAA-compliant cloud environment. Insights are being used to optimize donor-recipient matching and improve patient quality of life.",
+    "stack": ["Power BI", "Cloud (HIPAA)", "SQL"],
+    "impact": "1 billion+ rows · donor-recipient optimization · cost-effectiveness insights"
+  },
+  {
+    "id": 3,
+    "track": "Clinical & Research",
+    "title": "PDF Extraction for Pre/Post-Transplant Patient Data",
+    "description": "Extracted and analyzed data from PDF reports containing both computer-generated text and handwritten clinical notes. Data covered pre-transplant and post organ-failure tests, including blood pump metrics, heart rate, and oxygen monitoring at each timestamp.",
+    "stack": ["PDF Extraction", "OCR", "Python", "Image Processing"],
+    "impact": "Handwritten + digital records · patient recovery trajectory analysis"
+  },
+  {
+    "id": 4,
+    "track": "Banking",
+    "title": "Credit Risk Scorecard",
+    "description": "Built a preemptive scorecard for credit card non-delinquent customers to optimize collection costs and restrict flow into higher delinquency buckets. Used bureau and demographic variables with roll rate and vintage analysis to define target variables.",
+    "stack": ["SAS", "Logistic Regression", "Roll Rate Analysis", "Vintage Analysis"],
+    "impact": "Saved INR ~4.6M (~$55K) yearly in collection costs"
+  },
+  {
+    "id": 5,
+    "track": "Banking",
+    "title": "Customer Acquisition Predictive Scorecard",
+    "description": "Deployed logistic regression in SAS to identify potential customers likely to buy a product. Validated accuracy metrics, performed stress testing, and monitored model stability over time. Targeted top-3 deciles via scorecard-driven campaigns.",
+    "stack": ["SAS", "Logistic Regression", "Decile Analysis"],
+    "impact": "~6% customer base growth in 2 months"
+  },
+  {
+    "id": 6,
+    "track": "Banking",
+    "title": "Cross-Sell Opportunity Identification",
+    "description": "Identified cross-selling opportunities among existing customers through customer profiling and clustering based on product usage patterns. Surfaced actionable segments for targeted outreach.",
+    "stack": ["Clustering", "Customer Profiling", "SQL"],
+    "impact": "INR ~5M (~$60K) additional annual business opportunity identified"
+  },
+  {
+    "id": 7,
+    "track": "Banking",
+    "title": "Digital Payment Gateway Impact Analysis",
+    "description": "Analyzed digital payment gateway customers across POS, web-based payments, and third-party apps, benchmarked against mobile and net banking users. Quantified digital channel value to inform investment decisions.",
+    "stack": ["SQL", "Power BI", "Cohort Analysis"],
+    "impact": "40% increased funding secured for online gateway businesses"
+  },
+  {
+    "id": 8,
+    "track": "Analytics Consulting",
+    "title": "Revenue Recovery via Statistical Modeling",
+    "description": "Built a linear regression model for a major gaming client to pinpoint causes of revenue decline. Developed A/B testing strategies for Android and iOS users to validate and deploy interventions at scale.",
+    "stack": ["Linear Regression", "A/B Testing", "Python", "Periscope"],
+    "impact": "~$4M monthly savings · $1K per 4,000 subscribers"
+  },
+  {
+    "id": 9,
+    "track": "Analytics Consulting",
+    "title": "Sentiment & Consumer Analysis via Twitter API",
+    "description": "Leveraged twitteR in R and SQL on Redshift to generate 360° client-centric metrics — interest segments, marketing buckets, sentiment scores, and peak active hours — for a major e-commerce client.",
+    "stack": ["R", "Twitter API", "Redshift", "SQL", "NLP"],
+    "impact": "2x increase in targeted consumer touch base"
+  }
+]

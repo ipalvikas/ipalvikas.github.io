@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "placement": "3rd",
+    "title": "DataHack Competition",
+    "organizer": "Crescent · University of Texas, Dallas",
+    "year": "2022",
+    "type": "competition"
+  },
+  {
+    "id": 2,
+    "placement": "2nd",
+    "title": "Salesforce Competition",
+    "organizer": "University of Texas, Dallas",
+    "year": "2022",
+    "type": "competition"
+  },
+  {
+    "id": 3,
+    "placement": "★",
+    "title": "Best Employee of the Month",
+    "organizer": "Industry recognition",
+    "year": "2016",
+    "type": "award"
+  }
+]
